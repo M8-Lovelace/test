@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-tour-of-heroes';
+
+  abrir(){
+    window.open('devconexia://');
+  }
 }
